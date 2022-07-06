@@ -1,0 +1,93 @@
+                    * {
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        text-decoration: none;
+                    }
+                    
+                    body {
+                        background-color: grey;
+                        font-family: Arial, Helvetica, sans-serif
+                    }
+                    
+                    #container {
+                        height: 0px auto;
+                        width: 1100px;
+                        margin: 0px auto;
+                        border: 2px solid black
+                    }
+                    
+                    header {
+                        background-color: grey;
+                        text-align: center;
+                        padding: 20px;
+                        margin: 0%;
+                        text-decoration-line: none;
+                        border-bottom: 3px solid black;
+                    }
+                    
+                    nav {
+                        padding: 40px;
+                        background-color: lightgray;
+                    }
+                    
+                    nav ul li {
+                        float: left;
+                        list-style: none;
+                        margin: 10px;
+                    }
+                    
+                    .clearfix {
+                        clear: both;
+                    }
+                    
+                    #content {
+                        float: left;
+                        background-color: lightskyblue;
+                        min-height: 500px;
+                        width: 80%;
+                        padding-bottom: 20px;
+                    }
+                    
+                    .thumbnail-list {
+                        /* remove default list styles */
+                        list-style: none;
+                        margin: 0;
+                        padding: 0;
+                        /* remove spaces between li tags*/
+                        font-size: 0;
+                    }
+                    
+                    .thumbnail-list li {
+                        display: inline-block;
+                        grid-column: auto;
+                        width: 33.333%;
+                        padding: 2%;
+                        -moz-box-sizing: border-box;
+                        -webkit-box-sizing: border-box;
+                        box-sizing: border-box;
+                    }
+                    
+                    .thumbnail-list img {
+                        display: inline-block;
+                        width: 100%;
+                    }
+                    
+                    .article {
+                        margin-top: 15px;
+                        margin-bottom: 15;
+                        border-bottom: 3px solid black;
+                    }
+                    
+                    footer {
+                        text-align: center;
+                        padding: 10px;
+                        font-size: small;
+                        font-weight: lighter;
+                        background-color: cadetblue;
+                    }
+                    
+                    aside {
+                        float: left;
+                        width: 220px;
+                        background-color: lightgreen;
+                        min-height: 630.50px;
+                    }
